@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+body{
+    margin: 0%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+header{
+    background-color: rgb(227, 65, 65);
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 30px;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.icon{
+    width: 200px;
+    height: 75px;
+    border-radius: 7%;
+}
+
+.section{
+    display: flex;
+}
+
+.block-img{
+    width: 50%;
+    max-height: 50vh;
+}
+
+.text{
+    padding: 3%;
+}
+
+.block-py{
+    height: 90vh;
+    background-image: url(./img/python-hosting-1200x385-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 3%;
+    text-align: center;
+}
+
+
+.block-mit{
+    height: 90vh;
+    background-image: url(./img/mitappinvetor-logo-horizontal-cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 3%;
+    text-align: center;
+}
+
+.block-yt{
+    height: 90vh;
+    background-image: url(./img/youtube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 3%;
+    text-align: center;
+}
+
+.block-lego{
+    height: 90vh;
+    background-image: url(./img/lego-logo-512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(77, 74, 74);
+    font-size: 30px;
+    padding: 3%;
+    text-align: center;
+}
+
+.block-html{
+    height: 90vh;
+    background-image: url(./img/html11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(77, 74, 74);
+    font-size: 30px;
+    padding: 3%;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(227, 65, 65);
+    justify-content: space-around;
+    margin: 0;
+    padding: 40px;
+}
